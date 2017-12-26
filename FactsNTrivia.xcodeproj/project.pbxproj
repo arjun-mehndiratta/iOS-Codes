@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC84ABFC1F9B7F3E00FD5BFB /* RandomFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC84ABFB1F9B7F3E00FD5BFB /* RandomFactsViewController.swift */; };
+		DCCE22BC1FA727F600569623 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE22BB1FA727F600569623 /* Connectivity.swift */; };
 		DCFD72551F971CF800A3DAA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD72541F971CF800A3DAA0 /* AppDelegate.swift */; };
 		DCFD72571F971CF800A3DAA0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD72561F971CF800A3DAA0 /* FirstViewController.swift */; };
 		DCFD72591F971CF800A3DAA0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD72581F971CF800A3DAA0 /* SecondViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC84ABFB1F9B7F3E00FD5BFB /* RandomFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFactsViewController.swift; sourceTree = "<group>"; };
+		DCCE22BB1FA727F600569623 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 		DCFD72511F971CF800A3DAA0 /* FactsNTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactsNTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCFD72541F971CF800A3DAA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCFD72561F971CF800A3DAA0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				DCFD72541F971CF800A3DAA0 /* AppDelegate.swift */,
 				DCFD72561F971CF800A3DAA0 /* FirstViewController.swift */,
 				DCFD72581F971CF800A3DAA0 /* SecondViewController.swift */,
+				DC84ABFB1F9B7F3E00FD5BFB /* RandomFactsViewController.swift */,
+				DCCE22BB1FA727F600569623 /* Connectivity.swift */,
 				DCFD725A1F971CF800A3DAA0 /* Main.storyboard */,
 				DCFD725D1F971CF800A3DAA0 /* Assets.xcassets */,
 				DCFD725F1F971CF800A3DAA0 /* LaunchScreen.storyboard */,
@@ -141,7 +147,9 @@
 			files = (
 				DCFD72591F971CF800A3DAA0 /* SecondViewController.swift in Sources */,
 				DCFD72551F971CF800A3DAA0 /* AppDelegate.swift in Sources */,
+				DCCE22BC1FA727F600569623 /* Connectivity.swift in Sources */,
 				DCFD72571F971CF800A3DAA0 /* FirstViewController.swift in Sources */,
+				DC84ABFC1F9B7F3E00FD5BFB /* RandomFactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +206,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = default;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -255,6 +265,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
